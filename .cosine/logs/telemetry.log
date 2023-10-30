@@ -1,9 +1,16 @@
 
-INFO [2023-10-30T19:01:06.169Z]: project_reinitialize_success
-INFO [2023-10-30T19:01:06.169Z]: {}
-INFO [2023-10-30T19:01:06.229Z]: project_reinitialize_success
-INFO [2023-10-30T19:01:06.229Z]: {}
-INFO [2023-10-30T19:01:06.941Z]: project_reinitialize_start
-INFO [2023-10-30T19:01:06.941Z]: {}
-INFO [2023-10-30T19:01:07.000Z]: project_reinitialize_success
-INFO [2023-10-30T19:01:07.000Z]: {}
+INFO [2023-10-30T21:25:55.041Z]: project_reinitialize_success
+INFO [2023-10-30T21:25:55.041Z]: {}
+INFO [2023-10-30T21:25:57.101Z]: project_reinitialize_start
+INFO [2023-10-30T21:25:57.101Z]: {}
+INFO [2023-10-30T21:25:57.173Z]: project_reinitialize_success
+INFO [2023-10-30T21:25:57.173Z]: {}
+INFO [2023-10-30T21:26:04.108Z]: project_reinitialize_start
+INFO [2023-10-30T21:26:04.108Z]: {}
+INFO [2023-10-30T21:26:04.151Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-10-30T21:26:04.228Z]: project_reinitialize_success
+INFO [2023-10-30T21:26:04.228Z]: {}
+INFO [2023-10-30T21:29:33.926Z]: Set User: 06fb03f1-bf93-45c8-bbba-e1cd4482503d
+INFO [2023-10-30T21:29:33.927Z]: Initializing feature flags
+INFO [2023-10-30T21:29:45.948Z]: Split failed to initialize
+INFO [2023-10-30T21:29:45.966Z]: {}
