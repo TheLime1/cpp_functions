@@ -1,8 +1,37 @@
 
-INFO [2023-10-30T15:28:52.228Z]: Tracking open event
-INFO [2023-10-30T15:28:52.235Z]: opened
-INFO [2023-10-30T16:10:26.494Z]: Preparing to initialize extension
-INFO [2023-10-30T16:10:27.503Z]: Registering flag observer
-INFO [2023-10-30T16:10:27.506Z]: Setting network auth service
-INFO [2023-10-30T16:10:27.581Z]: Get Overview
-INFO [2023-10-30T16:10:27.669Z]: Creating terms service
+INFO [2023-10-30T16:10:34.506Z]: extension_initialized
+INFO [2023-10-30T16:10:42.448Z]: project_languages
+INFO [2023-10-30T16:10:42.464Z]: {"page":"/initialize/ignore"}
+INFO [2023-10-30T16:10:44.047Z]: Navigation
+INFO [2023-10-30T16:10:44.047Z]: {"page":"/initialize/progress"}
+INFO [2023-10-30T16:10:44.111Z]: Found 9 files
+INFO [2023-10-30T16:10:44.114Z]: {"name":"cpp_functions","languages":["CPP","JSON","Markdown"],"ignored":["*.a","*.dll","*.exe","*.lib","*.o","*.out","*.so",".cosine",".git",".idea",".svn",".vs",".vscode","CMakeFiles","CMakeScripts","Debug","Release","bin","build","cmake-build-debug","cmake-build-minsize","cmake-build-minsizerel","cmake-build-release","cmake-build-relwithdebinfo","dist","lib","obj"]}
+INFO [2023-10-30T16:10:44.402Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-10-30T16:10:44.403Z]: {"added":29,"deleted":0}
+INFO [2023-10-30T16:10:46.232Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-10-30T16:10:46.232Z]: {"resuts":29}
+INFO [2023-10-30T16:10:56.063Z]: Tokens for Overview Summary
+INFO [2023-10-30T16:10:56.064Z]: {"projectName":2,"languages":3,"likelyLibraries":0,"code":0,"nonCode":0,"total":173}
+INFO [2023-10-30T16:11:24.757Z]: project_initialize_success
+INFO [2023-10-30T16:11:24.758Z]: {"name":"cpp_functions","languages":["CPP","JSON","Markdown"],"ignored":["*.a","*.dll","*.exe","*.lib","*.o","*.out","*.so",".cosine",".git",".idea",".svn",".vs",".vscode","CMakeFiles","CMakeScripts","Debug","Release","bin","build","cmake-build-debug","cmake-build-minsize","cmake-build-minsizerel","cmake-build-release","cmake-build-relwithdebinfo","dist","lib","obj"]}
+INFO [2023-10-30T16:15:42.986Z]: project_reinitialize_start
+INFO [2023-10-30T16:15:42.993Z]: {}
+INFO [2023-10-30T16:15:43.083Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-10-30T16:15:43.132Z]: project_reinitialize_success
+INFO [2023-10-30T16:15:43.132Z]: {}
+INFO [2023-10-30T16:15:43.261Z]: project_reinitialize_success
+INFO [2023-10-30T16:15:43.261Z]: {}
+INFO [2023-10-30T16:15:44.581Z]: project_reinitialize_start
+INFO [2023-10-30T16:15:44.581Z]: {}
+INFO [2023-10-30T16:15:44.628Z]: project_reinitialize_success
+INFO [2023-10-30T16:15:44.628Z]: {}
+INFO [2023-10-30T16:15:45.237Z]: project_reinitialize_start
+INFO [2023-10-30T16:15:45.237Z]: {}
+INFO [2023-10-30T16:15:45.281Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-10-30T16:15:45.281Z]: {"added":5,"deleted":0}
+INFO [2023-10-30T16:15:47.561Z]: project_reinitialize_start
+INFO [2023-10-30T16:15:47.561Z]: {}
+INFO [2023-10-30T16:15:51.402Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-10-30T16:15:51.402Z]: {"resuts":5}
+INFO [2023-10-30T16:15:51.501Z]: project_reinitialize_success
+INFO [2023-10-30T16:15:51.501Z]: {}
