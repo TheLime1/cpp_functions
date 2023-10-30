@@ -1,5 +1,9 @@
 
-INFO [2023-10-30T19:00:47.960Z]: project_reinitialize_success
-INFO [2023-10-30T19:00:48.006Z]: project_reinitialize_success
-INFO [2023-10-30T19:00:48.081Z]: project_reinitialize_success
-INFO [2023-10-30T19:00:48.081Z]: {"agent":"cosine-vscode","version":"1.0.6","package":"@cosine/analytics"}
+INFO [2023-10-30T19:01:06.169Z]: project_reinitialize_success
+INFO [2023-10-30T19:01:06.169Z]: {"agent":"cosine-vscode","version":"1.0.6","package":"@cosine/analytics"}
+INFO [2023-10-30T19:01:06.229Z]: project_reinitialize_success
+INFO [2023-10-30T19:01:06.229Z]: {"agent":"cosine-vscode","version":"1.0.6","package":"@cosine/analytics"}
+INFO [2023-10-30T19:01:06.940Z]: project_reinitialize_start
+INFO [2023-10-30T19:01:06.940Z]: {"agent":"cosine-vscode","version":"1.0.6","package":"@cosine/analytics"}
+INFO [2023-10-30T19:01:07.000Z]: project_reinitialize_success
+INFO [2023-10-30T19:01:07.000Z]: {"agent":"cosine-vscode","version":"1.0.6","package":"@cosine/analytics"}
