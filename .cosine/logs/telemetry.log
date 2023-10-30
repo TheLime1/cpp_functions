@@ -35,3 +35,58 @@ INFO [2023-10-30T16:15:51.402Z]: [SemanticCodeSearch.index] Writing components
 INFO [2023-10-30T16:15:51.402Z]: {"resuts":5}
 INFO [2023-10-30T16:15:51.501Z]: project_reinitialize_success
 INFO [2023-10-30T16:15:51.501Z]: {}
+INFO [2023-10-30T18:48:43.291Z]: project_reinitialize_start
+INFO [2023-10-30T18:48:43.291Z]: {}
+INFO [2023-10-30T18:48:43.371Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-10-30T18:48:43.397Z]: project_reinitialize_success
+INFO [2023-10-30T18:48:43.397Z]: {}
+INFO [2023-10-30T18:48:45.090Z]: project_reinitialize_start
+INFO [2023-10-30T18:48:45.090Z]: {}
+INFO [2023-10-30T18:48:45.146Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-10-30T18:48:45.146Z]: {"added":3,"deleted":0}
+INFO [2023-10-30T18:48:45.323Z]: project_reinitialize_start
+INFO [2023-10-30T18:48:45.323Z]: {}
+INFO [2023-10-30T18:48:48.557Z]: project_reinitialize_start
+INFO [2023-10-30T18:48:48.557Z]: {}
+INFO [2023-10-30T18:48:54.816Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-10-30T18:48:54.885Z]: {}
+INFO [2023-10-30T18:48:55.217Z]: project_reinitialize_success
+INFO [2023-10-30T18:48:55.217Z]: {}
+INFO [2023-10-30T18:48:55.314Z]: project_reinitialize_success
+INFO [2023-10-30T18:48:55.315Z]: {}
+INFO [2023-10-30T18:49:56.145Z]: project_reinitialize_start
+INFO [2023-10-30T18:49:56.145Z]: {}
+INFO [2023-10-30T18:49:56.305Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-10-30T18:49:56.375Z]: project_reinitialize_success
+INFO [2023-10-30T18:49:56.375Z]: {}
+INFO [2023-10-30T18:49:57.705Z]: project_reinitialize_start
+INFO [2023-10-30T18:49:57.705Z]: {}
+INFO [2023-10-30T18:49:57.788Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-10-30T18:49:57.788Z]: {"added":3,"deleted":0}
+INFO [2023-10-30T18:49:59.065Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-10-30T18:49:59.097Z]: {}
+INFO [2023-10-30T18:50:01.033Z]: project_reinitialize_start
+INFO [2023-10-30T18:50:01.033Z]: {}
+INFO [2023-10-30T18:50:01.092Z]: project_reinitialize_success
+INFO [2023-10-30T18:50:01.093Z]: {}
+INFO [2023-10-30T18:55:51.300Z]: project_reinitialize_start
+INFO [2023-10-30T18:55:51.300Z]: {}
+INFO [2023-10-30T18:55:51.354Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-10-30T18:55:51.355Z]: {"resuts":0}
+INFO [2023-10-30T18:55:51.391Z]: project_reinitialize_success
+INFO [2023-10-30T18:55:51.391Z]: {}
+INFO [2023-10-30T18:55:53.389Z]: project_reinitialize_start
+INFO [2023-10-30T18:55:53.389Z]: {}
+INFO [2023-10-30T18:55:53.440Z]: project_reinitialize_success
+INFO [2023-10-30T18:55:53.440Z]: {}
+INFO [2023-10-30T18:55:55.243Z]: project_reinitialize_start
+INFO [2023-10-30T18:55:55.243Z]: {}
+INFO [2023-10-30T18:55:55.316Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-10-30T18:55:55.316Z]: {"added":7,"deleted":0}
+INFO [2023-10-30T18:55:56.953Z]: project_reinitialize_start
+INFO [2023-10-30T18:55:56.953Z]: {}
+INFO [2023-10-30T18:56:01.168Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-10-30T18:56:01.168Z]: {"resuts":7}
+INFO [2023-10-30T18:56:01.193Z]: project_reinitialize_success
+INFO [2023-10-30T18:56:01.278Z]: project_reinitialize_success
+INFO [2023-10-30T18:56:01.278Z]: {}
