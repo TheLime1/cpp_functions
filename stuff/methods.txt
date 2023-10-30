@@ -1,0 +1,932 @@
+                                     Doc Autorisé :
+
+
+
+
+Constructeur :
+
+Notes::Notes(float test,float DS,float Examen)
+{
+this->test=test;
+this->DS=DS;
+this->Examen=Examen;
+this->;
+this->;
+this->;
+}
+
+
+
+Saisir :
+
+​void etudiant::afficher()
+  {
+     cout<<"le nom est :"<<endl;
+     cin>>nom;
+     cout<<"l'adresse est :"<<endl;
+     cin>>adresse;
+     cout<<"la classe est :"<<endl;
+     cin>>classe;
+     cout<<"le ID est :"<<endl;
+     cin>>ID;
+  }
+
+
+Afficher:
+
+void etudiant::afficher()
+  {
+    cout<<"le nom est :"<<nom<<endl;
+    cout<<"l'adresse est :"<<adresse<<endl;
+    cout<<"la classe est :"<<classe<<endl;
+    cout<<"le ID est :"<<nom<<endl;
+        }
+
+
+Saisir :
+
+    void CompteEpargne::saisir()
+    {
+      cout<<"donner le rib"<<endl;
+      cin>>RIB;
+      cout<<"donner le solde"<<endl;
+      cin>>solde;
+      cout<<"donner le taux"<<endl;
+      cin>>taux;
+
+        do
+        {
+          cout<<"donner le solde"<<endl;
+          cin>>solde;
+        }while(solde<5);
+    }
+
+
+
+
+Retirer :
+
+ bool Compe::retirerArgent(double montant)
+ {
+ cout<<"*********Montant retire:********"<<endl;
+if(solde>montant)
+{
+    solde-=montant;
+    return true;
+}
+return false;
+ }
+
+
+
+Méthode déposer :
+
+void compte::deposerArgent(float credit)
+{
+  cout<<"******compte credit:*********"<<endl;
+    solde =solde+credit; //​solde+=somme;
+}
+Méthode Consulter:
+
+void compte::consulterSolde()
+{
+  cout<<"Le Solde Actuel est :"<<solde<<endl;
+}
+
+Méthode Transférer de l’argent dans un autre compte :
+
+void compte::transfererArgent(compte &B)
+{
+    float montant;
+
+    cout<<"Donnez le montant a transfer:"<<endl;
+    cin>>montant;
+   cout<<montant<<endl;
+
+    if(retirerArgent(montant))
+    {
+       B.deposerArgent(montant);
+    }
+else cout<<"impossible d'effectuer le transfert"<<endl;
+}
+
+
+
+
+Appel d’un vector f .h : ​              ​ ​vector<etudiant>tabE;
+
+
+
+Rechercher dans un tab vector :
+
+long rechercherEtudiant(long ID)
+{
+   unsigned int i=0;
+   while(i<tabE.size())
+   {
+     if(tabE[i].getID()==ID)
+     {
+
+  return i;
+  }
+   i++;
+}
+return -1;
+}
+
+
+
+Ajout dans un tab vector : (Void)
+
+void​ ajouterEtudiant(etudiant const&)
+{
+  tabE.push_back(E);
+}
+
+Ajout dans un tab vector : (bool) ​       ​   (->Rechercher avant Ajout)
+
+bool​ ajouterEtudiant(etudiant const&)
+{
+  if(rechercherEtudiant(E.getID()==-1))
+  {
+      tabE.push_back(E);
+      return true;
+  }
+  return false;
+}
+  tabE.push_back(E);
+}
+
+Suppression​ dans un tab vector :
+
+bool ecole::supprimerEtudiant(long ID)
+{
+long ind=rechercher(ID);
+
+if(ind!=-1)
+{
+    tabE.erase(ind+tabE.begin());
+    return true ;
+}
+return false;
+}
+Afficher un tab (vector)->1valeur :​          un étudiant
+
+void ecole::afficherEtudiant() const
+{
+  unsigned int i;
+  for(i=0;i<tabE.size();i++)
+     cout<<endl;
+}
+
+
+Afficher dans un tab (vector) :​       classe kemla feha barcha etudiants
+
+ ​ oid ecole::afficher(string classe) const
+  v
+ {
+unsigned int i;
+for(i=0;i<tabE.size();i++)
+{
+    if(tabE[i].getClasse()==classe)
+        tabE[i].afficher();
+}
+ }
+     ​Les listes :
+
+
+
+Déclaration d’une list f.h : ​         list<ouvrage> MyList; ​ ​   (Mylist esm list)
+
+
+Afficher :​   ​(aandek méthode afficher men 9bal d’1 seul ouvrage)
+
+void Bibliotheque::afficher() const
+  {
+      list<ouvrage>::const_iterator it;
+
+      for(it=MyList.begin();it!=MyList.end();it++)
+      {
+        (*it).afficher();
+        cout<<(*it).totalOuvrage()<<endl;
+        cout<<endl;
+     }
+ }
+
+Rechercher:
+list<ouvrage>:: iterator Bibliotheque::rechercher(int c)
+ {
+list<ouvrage>::iterator it=MyList.begin();
+
+while(it!=MyList.end())
+{
+  if(it->getCode()==c)
+      return it;
+
+  it++;
+}
+return MyList.end();
+ }
+
+
+Ajout :
+ bool Bibliotheque::ajouter(ouvrage const& o)
+  {
+list<ouvrage>::iterator it;
+
+it=rechercher(o.getCode());
+
+if(it==MyList.end())
+{
+    MyList.push_back(o);
+    return true;
+}
+return false;
+  }
+
+
+Calculer Prix Total:
+
+ double Bibliotheque::prixTotal()
+  {
+    list<ouvrage>::iterator it;
+       double s=0;
+       for(it=MyList.begin();it!=MyList.end();++it)
+          s+=it->totalOuvrage();
+       return s;
+   }
+
+Diminuer nbre exemplaires/ Augmenter:
+  void diminuer(int c,int n)
+  {
+    list<ouvrage>::iterator it;
+    it=rechercher(c);
+
+       if(it!=MyList.end())
+       {
+           it->setNbre_exemp(it->setNbre_exemp()-n); }
+   ​Héritage :
+
+
+Classe Mere .h:
+
+class Article {
+
+protected:
+  string nom;
+  double prix;
+  float tva;
+public:
+  Article();
+  Article(string,double,float);
+
+
+
+
+Classe Fille (.h) :
+
+
+class articleSolde : public Article
+{
+private:
+   int remise;
+public:
+articleSolde(string,double,float,int);
+void afficher() const;
+double prixFinal()const;
+~articleSolde() {};
+
+Constructeur Classe Mere (.cpp) :
+
+Article:: Article(string nom,double prix,float tva){
+this->nom=nom;
+this->prix=prix;
+this->tva=tva;
+}
+
+Constructeur Classe fille (.cpp) :
+
+articleSolde::articleSolde(string nom,double prix,float tva,int
+remise):Article(nom,prix,tva)
+{ this->remise=remise; }
+
+Méthode Afficher Classe fille (.cpp) :
+
+ void articleSolde::afficher() const
+ {
+Article::afficher(); //feha affichage attribut 9dom kol
+cout<<"prix avec tva:"<<Article::prixFinal()<<endl; // afficher attribut jdid
+cout<<"remise:"<<remise<<endl;
+cout<<"prix apres remise:"<<prixFinal()<<endl;
+ }
+
+
+classe qui gère d’autres Classes fille (.cpp) : Banque
+
+
+Rechercher :
+
+vector<Compte*>::iterator Banque::rechercher(long rib)
+ {
+   vector<Compte*>::iterator it;
+   for(it=tab.begin();it!=tab.end();it++)
+   {
+       if((**it).GetRIB()==rib)
+       {
+           return it;
+    }
+    }
+    return tab.end();
+}
+
+Ajouter:
+
+bool Banque::ajouter(Compte const& C)
+{
+if(rechercher(C.GetRIB())!=tab.end())
+{
+    return false;
+}
+Compte *p=new Compte(C);
+tab.push_back(p);
+}
+
+Afficher:
+
+void Banque::afficher() const
+   {
+     vector<Compte*>::const_iterator it;
+
+      for(it=tab.begin();it!=tab.end();it++)
+     {
+     (*it)->afficher(); //(**it).afficher(); } }
+    ​Destructeur :
+
+//parcours bil iterator hata f list
+
+Banque::~Banque()
+{
+  //dtor
+
+    vector<Compte*>::iterator it;
+    for(it=tab.begin();it!=tab.end();it++)
+    {
+          delete (*it);
+    }
+}
+
+
+//Méthode 2 parcours avec un for compteur i
+
+/*Banque::~Banque()
+{
+
+for(unsigned inti=0;i<tab.size();i++)
+{
+   delete(tab[i]);
+}
+} */
+
+
+    ​Constructeur de Copie:
+
+Banque (const Banque&) ​ (f.h)
+
+Banque & operator=(const Banque&); ​Affectation de operator (f.h)
+
+Banque:: Banque (const Banque& B) ​ (f.cpp)
+{
+  nom=B.nom;
+  lieu=B.lieu;
+  Compte * p;
+
+    vector<Compte*>::const_iterator it;
+    for(it=B.tab.begin();it!=tab.end();it++){
+     if(typeid(**it)==typeid(Compte))
+         p=new Compte(**it);
+
+    else if (typeid(**it)==typeid(CompteCourant))
+       p=new CompteCourant(static_cast<const CompteCourant &>(**it));
+       else
+       p=new CompteEpargne (static_cast<const CompteEpargne&>(**it));
+
+        tab.push_back(p);
+    }
+}
+
+
+
+
+​Affectation de operator (f.cpp)
+
+Banque &Banque::operator =(const Banque & B)
+ {
+     if(this!=&B){
+  nom=B.nom;
+  lieu=B.lieu;
+  Compte * p;
+
+    for(unsigned i=0;i<tab.size();i++)
+    {
+       delete(tab[i]);
+    }
+
+    vector<Compte*>::const_iterator it;
+    for(it=B.tab.begin();it!=tab.end();it++){
+     if(typeid(**it)==typeid(Compte))
+         p=new Compte(**it);
+
+    else if (typeid(**it)==typeid(CompteCourant))
+       p=new CompteCourant(static_cast<const CompteCourant &>(**it));
+       else
+       p=new CompteEpargne (static_cast<const CompteEpargne&>(**it));
+
+        tab.push_back(p);
+    }
+      }
+    return (*this);
+}
+fichier:
+constructeur:
+Filee::Filee()
+{
+   cout << "\nConstructeur systeme!" << endl;
+   file[0].open("bf_1_100-Lines.txt",ios::in);
+   file[1].open("bf_2_100-Lines.txt",ios::in);
+   file[2].open("sha1_100-Lines.txt",ios::in);
+   file[3].open("sha2_100-Lines.txt",ios::in);
+   results.open("results.txt");
+
+}
+destructeur:
+Filee::~Filee()
+{
+   for (int i=0; i<4; i++)
+      file[i].close();
+   results.close();
+      cout << "\nDEConstructeur systeme!" << endl;
+}
+
+initiation des fichiers à utiliser
+void Fileeinit()
+{
+    file[0].open(bf_1_100-Lines.txt,iosin);
+   file[1].open(bf_2_100-Lines.txt,iosin);
+   file[2].open(sha1_100-Lines.txt,iosin);
+   file[3].open(sha2_100-Lines.txt,iosin);
+   results.open(results.txt);
+}
+
+trouve le mot et écris la phrase dans un autre fichier:4
+void Filee::chaine_line(string line)
+{
+   string xline;
+   for (int i=0;i<4;i++)
+   {
+      if (file[i])
+      {
+          cout << "fichier" ;
+          while (!file[i].eof())
+          {
+            cout << "." ;
+            getline(file[i],xline);
+            if (xline.find(line) != string::npos)
+            {
+                cout << "\nChaine trouvé !" ;
+                if (results)
+                {
+                   results << xline << endl;
+                }
+            }
+          }
+      }
+      else if (!file[i])
+      cout << "erreur file " ;
+  }
+}
+vérification d'existence d'une chaine dans un fichier
+bool Filee::verif_mail(string line)
+{
+  bool test=false;
+  string xline;
+  for (int i=0;i<4;i++)
+  {
+
+
+      if (file[i])
+      {
+
+          while (!file[i].eof())
+          {
+            getline(file[i],xline);
+            if (xline.find(line) != string::npos)
+            {
+                cout << "\nMail Trouvé !"<< endl;
+                test=true;
+                break;
+               }
+           }
+       }
+       else if (!file[i])
+       cout << "erreur file " ;
+       if (test==true)
+           break;
+   }
+return(test);
+}
+
+exception
+classe
+class exception
+{
+public:
+exception() throw(){ }
+virtual ~exception() throw();
+virtual const char* what() const throw();
+
+};
+
+//////////////////////////////////////////
+//Une exception est levé indiquant que le numéro de tige est incorrecte.
+
+class Erreur_tour : public std::exception
+{
+private :
+
+
+
+
+     string m_ph ;
+     string m_niveau ;
+
+public :
+
+
+     Erreur_tour(string ph="",string niveau="")
+     throw():m_ph(ph),m_niveau(niveau)
+      {
+   }
+   virtual const char* what() const throw()
+   {
+     return m_ph.c_str();
+   }
+   string getNiveau() const throw()
+    {
+      return m_niveau;
+    }
+  virtual ~Erreur_tour() throw()
+   {
+
+   }
+
+
+};
+///////////////////////////////////////////////
+//Une exception est levé indiquant que la taille du disque déplacé est
+incorrecte (plus grande que celle dans la tige cible).
+
+class Erreur_disque : public std::exception
+{
+   private :
+
+
+
+
+  string m_ph ;
+  string m_niveau ;
+
+public :
+
+
+
+
+  Erreur_disque(string ph="",string niveau="")
+  throw():m_ph(ph),m_niveau(niveau)
+   {
+   }
+   virtual const char* what() const throw()
+   {
+       return m_ph.c_str();
+   }
+   string getNiveau() const throw()
+    {
+      return m_niveau;
+    }
+  virtual ~Erreur_disque() throw()
+   {
+
+   }
+
+};
+//////////////////////////////////////////////////////
+//Une exception est levé indiquant que le tige est vide.
+class Erreur_tigeSource : public std::exception
+{
+    private :
+
+
+
+
+  string m_ph ;
+  string m_niveau ;
+
+public :
+
+
+  Erreur_tigeSource(string ph="",string niveau="")
+  throw():m_ph(ph),m_niveau(niveau)
+   {
+   }
+   virtual const char* what() const throw()
+   {
+     return m_ph.c_str();
+   }
+   string getNiveau() const throw()
+    {
+      return m_niveau;
+    }
+  virtual ~Erreur_tigeSource() throw()
+   {
+
+   }
+
+};
+appel à une exception
+throw Erreur_tigeSource("source empty ","tige");
+
+exp d’une exception
+#include <iostream>
+using namespace std;
+#include "exception"
+int devision(int numerator,int denominator)
+{
+   int result ;
+cout<<"enter info :"<<endl;
+cin>>numerator>>denominator;
+        try{
+                if(denominator==0)//determine the cause of the error
+                {
+                throw denominator;//throw the cause of the error
+                }
+        result = numerator/denominator;
+        }
+        catch(int ex)
+        {
+        cout<<"exception devided by 0 not allowed"<<ex;
+        }
+cout<<"devision is :"<<result;
+return result;
+}
+
+
+saisie avec exception
+
+void tige::siasie(int mouvment)
+  {
+
+
+       if((mouvment==13)||(mouvment==12)
+         ||(mouvment==32)||(mouvment==31)||
+         (mouvment==21)||(mouvment==23))
+     {
+         switch(mouvment)
+         {
+         case 13 :
+
+            if(tige1.empty())//si la tige est vide
+            {​//Une exception est levé indiquant que le tige est vide
+                throw Erreur_tigeSource("source empty ","tige");
+            }
+           else
+           {
+
+
+if(tige3.empty()||((tige1[tige1.size()-1].GettailleD())<(tige3[tige3.size()-1].Gettail
+leD())))
+               {
+                 Disk D(tige1[tige1.size()-1].GettailleD());
+                 tige3.push_back(D);
+                 tige1.pop_back();
+                 cout<< "mouvement done" <<endl;
+               }
+               else​//si la taille du disque déplacé est plus grande que celle
+dans la tige cible
+                             {​//Une exception est levé indiquant que la taille du
+disque déplacé est incorrecte
+
+                        throw Erreur_disque("Disk Source plus grand ","Disque");
+
+                  }
+
+
+
+
+          }
+
+              break ;
+
+         case 12 :
+           if(tige1.empty())//si tige vide
+           {​//Une exception est levé indiquant que le tige est vide.
+               throw Erreur_tigeSource("Tige source empty ","tige");
+           }
+          else
+          {
+
+
+if(tige2.empty()||((tige1[tige1.size()-1].GettailleD())<(tige2[tige2.size()-1].Gettail
+leD())))
+               {
+                 Disk D(tige1[tige1.size()-1].GettailleD());
+                 tige2.push_back(D);
+                 tige1.pop_back();
+                 cout<< "mouvement effectue" <<endl;
+               }
+               else​//si la taille du disque déplacé est plus grande que celle
+dans la tige cible
+                      {​//Une exception est levé indiquant que la taille du disque
+déplacé est incorrecte
+
+                      throw Erreur_disque("Disk Source plus grand ","Disque");
+
+                 }
+
+
+
+
+         }
+             break;
+
+        case 32 :
+            if(tige3.empty())//si vide
+           {​//Une exception est levé indiquant que le tige est vide
+               throw Erreur_tigeSource("Tige source empty ","tige");
+           }
+          else
+          {
+if(tige2.empty()||((tige3[tige3.size()-1].GettailleD())<(tige2[tige2.size()-1].Gettail
+leD())))
+               {
+                 Disk D(tige3[tige3.size()-1].GettailleD());
+                 tige2.push_back(D);
+                 tige3.pop_back();
+                 cout<< "mouvement done" <<endl;
+               }
+               else​//si la taille du disque déplacé est plus grande que celle
+dans la tige cible
+                      {​//Une exception est levé indiquant que la taille du disque
+déplacé est incorrecte
+
+                      throw Erreur_disque("Disk Source plus grand ","Disque");
+
+                 }
+
+
+
+
+         }
+             break;
+
+        case 31 :
+           if(tige3.empty())//si vide
+           {​//Une exception est levé indiquant que le tige est vide
+               throw Erreur_tigeSource("Tige source empty ","tige");
+           }
+          else
+          {
+
+
+if(tige1.empty()||((tige3[tige3.size()-1].GettailleD())<(tige1[tige1.size()-1].Gettail
+leD())))
+               {
+                 Disk D(tige3[tige3.size()-1].GettailleD());
+                 tige1.push_back(D);
+                 tige3.pop_back();
+                 cout<< "mouvement done" <<endl;
+               }
+               else//si la taille du disque déplacé est plus grande que celle
+dans la tige cible
+                   {​//Une exception est levé indiquant que la taille du disque
+déplacé est incorrecte
+
+                      throw Erreur_disque("Disk Source plus grand ","Disque");
+
+                 }
+
+
+
+
+         }
+             break;
+
+        case 21 :
+           if(tige2.empty())//si vide
+           {​//Une exception est levé indiquant que le tige est vide
+               throw Erreur_tigeSource("Tige source empty ","tige");
+           }
+          else
+          {
+
+
+if(tige1.empty()||((tige2[tige2.size()-1].GettailleD())<(tige1[tige1.size()-1].Gettail
+leD())))
+               {
+                 Disk D(tige2[tige2.size()-1].GettailleD());
+                 tige1.push_back(D);
+                 tige2.pop_back();
+                 cout<< "mouvement effectue" <<endl;
+               }
+               else//si la taille du disque déplacé est plus grande que celle
+dans la tige cible
+                      {​//Une exception est levé indiquant que la taille du disque
+déplacé est incorrecte
+
+                      throw Erreur_disque("Disk Source plus grand ","Disque");
+
+                 }
+             }
+                 break;
+
+         case 23 :
+
+              if(tige2.empty())//si vide
+              {​//Une exception est levé indiquant que le tige est vide
+                  throw Erreur_tigeSource("Tige source empty ","tige");
+              }
+             else
+             {
+
+
+if(tige3.empty()||((tige2[tige2.size()-1].GettailleD())<(tige3[tige3.size()-1].Gettail
+leD())))
+               {
+                 Disk D(tige2[tige2.size()-1].GettailleD());
+                 tige3.push_back(D);
+                 tige2.pop_back();
+                 cout<< "mouvement effectue" <<endl;
+               }
+               else//si la taille du disque déplacé est plus grande que celle
+dans la tige cible
+                      {​//Une exception est levé indiquant que la taille du disque
+déplacé est incorrecte
+
+                          throw Erreur_disque("Disk Source plus grand ","Disque");
+
+                     }
+
+
+
+
+             }
+                 break;
+         }
+
+
+     }
+else
+   if((mouvment==11)||(mouvment==22)||(mouvment==33))
+{
+   switch(mouvment)
+   {
+   case 11 :
+       if(tige1.empty())//si vide
+       {​//Une exception est levé indiquant que le tige est vide
+           throw Erreur_tigeSource("Tige source empty ","tige");
+       }
+       else
+       {
+           cout<< "mouvement empty" <<endl;
+       }
+       break;
+
+  case 22 :
+    if(tige2.empty())//si vide
+    {​//Une exception est levé indiquant que le tige est vide
+        throw Erreur_tigeSource("Tige source empty ","tige");
+    }
+    else
+    {
+        cout<< "mouvement empty" <<endl;
+    }
+    break;
+
+  case 33 :
+    if(tige3.empty())//si vide
+    {​//Une exception est levé indiquant que le tige est vide
+        throw Erreur_tigeSource("Tige source empty ","tige");
+    }
+    else
+    {
+        cout<< "mouvement empty" <<endl;
+    }
+    break;
+  }
+     }
+
+     else//num incorrect
+     {​//Une exception est levé indiquant que le numéro de tige est incorrecte.
+         throw Erreur_tour("mouvement non valide","tige");
+     }
+
+};
+

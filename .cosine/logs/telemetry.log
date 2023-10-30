@@ -1,7 +1,8 @@
 
-INFO [2023-10-29T20:56:00.065Z]: Set User: 9ccc43fc-6e69-4eeb-a70b-2f11a3e2eb92
-INFO [2023-10-29T20:56:00.065Z]: Initializing feature flags
-INFO [2023-10-29T20:56:12.074Z]: Split failed to initialize
-INFO [2023-10-29T20:56:12.084Z]: {}
-INFO [2023-10-29T21:04:46.051Z]: Set User: 9ccc43fc-6e69-4eeb-a70b-2f11a3e2eb92
-INFO [2023-10-29T21:04:49.100Z]: {}
+INFO [2023-10-30T15:28:52.228Z]: Tracking open event
+INFO [2023-10-30T15:28:52.235Z]: opened
+INFO [2023-10-30T16:10:26.494Z]: Preparing to initialize extension
+INFO [2023-10-30T16:10:27.503Z]: Registering flag observer
+INFO [2023-10-30T16:10:27.506Z]: Setting network auth service
+INFO [2023-10-30T16:10:27.581Z]: Get Overview
+INFO [2023-10-30T16:10:27.669Z]: Creating terms service
