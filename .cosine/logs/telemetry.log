@@ -90,3 +90,49 @@ INFO [2023-10-30T18:56:01.168Z]: {"resuts":7}
 INFO [2023-10-30T18:56:01.193Z]: project_reinitialize_success
 INFO [2023-10-30T18:56:01.278Z]: project_reinitialize_success
 INFO [2023-10-30T18:56:01.278Z]: {}
+INFO [2023-10-30T18:57:43.424Z]: project_reinitialize_start
+INFO [2023-10-30T18:57:43.444Z]: {}
+INFO [2023-10-30T18:57:43.566Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-10-30T18:57:43.566Z]: {"added":26,"deleted":0}
+INFO [2023-10-30T18:57:46.073Z]: project_reinitialize_start
+INFO [2023-10-30T18:57:46.073Z]: {}
+INFO [2023-10-30T18:57:46.769Z]: project_reinitialize_start
+INFO [2023-10-30T18:57:46.769Z]: {}
+INFO [2023-10-30T18:57:46.969Z]: project_reinitialize_start
+INFO [2023-10-30T18:57:46.969Z]: {}
+INFO [2023-10-30T18:57:53.901Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-10-30T18:57:53.901Z]: {"resuts":26}
+INFO [2023-10-30T18:57:53.934Z]: project_reinitialize_success
+INFO [2023-10-30T18:57:54.004Z]: project_reinitialize_success
+INFO [2023-10-30T18:57:54.004Z]: {}
+INFO [2023-10-30T18:57:54.082Z]: project_reinitialize_success
+INFO [2023-10-30T18:57:54.082Z]: {}
+INFO [2023-10-30T18:57:54.136Z]: project_reinitialize_success
+INFO [2023-10-30T18:57:54.136Z]: {}
+INFO [2023-10-30T18:57:54.182Z]: project_reinitialize_success
+INFO [2023-10-30T18:57:54.182Z]: {}
+INFO [2023-10-30T18:57:54.244Z]: project_reinitialize_success
+INFO [2023-10-30T18:57:54.244Z]: {}
+INFO [2023-10-30T19:00:45.465Z]: project_reinitialize_start
+INFO [2023-10-30T19:00:45.486Z]: {}
+INFO [2023-10-30T19:00:45.617Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-10-30T19:00:45.643Z]: {}
+INFO [2023-10-30T19:00:47.296Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-10-30T19:00:47.296Z]: {"resuts":26}
+INFO [2023-10-30T19:00:47.341Z]: {}
+INFO [2023-10-30T19:00:47.419Z]: project_reinitialize_success
+INFO [2023-10-30T19:00:47.419Z]: {}
+INFO [2023-10-30T19:00:47.492Z]: project_reinitialize_success
+INFO [2023-10-30T19:00:47.492Z]: {}
+INFO [2023-10-30T19:00:47.539Z]: project_reinitialize_success
+INFO [2023-10-30T19:00:47.539Z]: {}
+INFO [2023-10-30T19:00:47.594Z]: project_reinitialize_success
+INFO [2023-10-30T19:00:47.594Z]: {}
+INFO [2023-10-30T19:00:47.667Z]: project_reinitialize_success
+INFO [2023-10-30T19:00:47.667Z]: {}
+INFO [2023-10-30T19:00:47.888Z]: project_reinitialize_start
+INFO [2023-10-30T19:00:47.895Z]: {}
+INFO [2023-10-30T19:00:47.960Z]: project_reinitialize_success
+INFO [2023-10-30T19:00:47.960Z]: {}
+INFO [2023-10-30T19:00:48.082Z]: project_reinitialize_success
+INFO [2023-10-30T19:00:48.082Z]: {}
