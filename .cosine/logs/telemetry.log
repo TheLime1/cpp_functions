@@ -1,16 +1,6 @@
 
-INFO [2023-10-30T21:25:55.041Z]: project_reinitialize_success
-INFO [2023-10-30T21:25:55.041Z]: {}
-INFO [2023-10-30T21:25:57.101Z]: project_reinitialize_start
-INFO [2023-10-30T21:25:57.101Z]: {}
-INFO [2023-10-30T21:25:57.173Z]: project_reinitialize_success
-INFO [2023-10-30T21:25:57.173Z]: {}
-INFO [2023-10-30T21:26:04.108Z]: project_reinitialize_start
-INFO [2023-10-30T21:26:04.108Z]: {}
-INFO [2023-10-30T21:26:04.151Z]: [SemanticCodeSearch.preIndex] Embedding components
-INFO [2023-10-30T21:26:04.228Z]: project_reinitialize_success
-INFO [2023-10-30T21:26:04.228Z]: {}
-INFO [2023-10-30T21:29:33.926Z]: Set User: 06fb03f1-bf93-45c8-bbba-e1cd4482503d
-INFO [2023-10-30T21:29:33.927Z]: Initializing feature flags
-INFO [2023-10-30T21:29:45.948Z]: Split failed to initialize
-INFO [2023-10-30T21:29:45.966Z]: {}
+INFO [2023-10-30T21:47:21.885Z]: Tracking open event
+INFO [2023-10-30T21:47:21.888Z]: {}
+INFO [2023-10-31T07:00:56.083Z]: Set User: 06fb03f1-bf93-45c8-bbba-e1cd4482503d
+INFO [2023-10-31T07:01:11.080Z]: opened
+INFO [2023-10-31T07:01:11.080Z]: {}
