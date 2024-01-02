@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1701773479 source:c:\users\user\desktop\esprit 2a\c++\td 13\main.cpp
+	<iostream>
+	"NoteManager.h"
+
+1701771874 source:c:\users\user\desktop\esprit 2a\c++\td 13\note.cpp
+	"note.h"
+
+1701773875 c:\users\user\desktop\esprit 2a\c++\td 13\note.h
+	<iostream>
+	<string>
+
+1701773428 c:\users\user\desktop\esprit 2a\c++\td 13\notemanager.h
+	"note.h"
+	"tag.h"
+	<vector>
+
+1701767882 c:\users\user\desktop\esprit 2a\c++\td 13\tag.h
+	"note.h"
+
+1701773652 source:c:\users\user\desktop\esprit 2a\c++\td 13\notemanager.cpp
+	"NoteManager.h"
+	<fstream>
+	<iostream>
+
+1701767884 source:c:\users\user\desktop\esprit 2a\c++\td 13\tag.cpp
+	"tag.h"
+

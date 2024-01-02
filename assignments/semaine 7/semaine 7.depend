@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1698137974 source:c:\users\user\desktop\esprit 2a\c++\semaine 7\employe.cpp
+	"employe.h"
+	<iostream>
+
+1698138127 c:\users\user\desktop\esprit 2a\c++\semaine 7\employe.h
+	<string>
+
+1698138291 source:c:\users\user\desktop\esprit 2a\c++\semaine 7\main.cpp
+	<iostream>
+	"employe.h"
+	"ouvrier.h"
+
+1698138378 c:\users\user\desktop\esprit 2a\c++\semaine 7\ouvrier.h
+	"employe.h"
+	<iostream>
+

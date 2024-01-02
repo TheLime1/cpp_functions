@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1697534898 source:c:\users\user\desktop\esprit 2a\c++\td4\t4 ex3\bibliotheque.cpp
+	"bibliotheque.h"
+
+1697534844 c:\users\user\desktop\esprit 2a\c++\td4\t4 ex3\bibliotheque.h
+	"ouvrage.h"
+	<list>
+
+1697534720 c:\users\user\desktop\esprit 2a\c++\td4\t4 ex3\ouvrage.h
+	<iostream>
+	<string.h>
+
+1697534720 source:c:\users\user\desktop\esprit 2a\c++\td4\t4 ex3\main.cpp
+	"bibliotheque.h"
+
+1697534898 source:c:\users\user\desktop\esprit 2a\c++\semaine 4\td4\t4 ex3\bibliotheque.cpp
+	"bibliotheque.h"
+
+1697534844 c:\users\user\desktop\esprit 2a\c++\semaine 4\td4\t4 ex3\bibliotheque.h
+	"ouvrage.h"
+	<list>
+
+1697534720 c:\users\user\desktop\esprit 2a\c++\semaine 4\td4\t4 ex3\ouvrage.h
+	<iostream>
+	<string.h>
+
+1697534720 source:c:\users\user\desktop\esprit 2a\c++\semaine 4\td4\t4 ex3\main.cpp
+	"bibliotheque.h"
+
+1697534965 source:c:\users\user\desktop\esprit 2a\c++\semaine 4\td4\t4 ex3\ouvrage.cpp
+	"ouvrage.h"
+

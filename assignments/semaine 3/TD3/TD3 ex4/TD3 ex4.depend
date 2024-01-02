@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1696325420 source:c:\users\user\desktop\esprit 2a\c++\td3\td3 ex4\fonction.cpp
+	"header.h"
+
+1696325170 c:\users\user\desktop\esprit 2a\c++\td3\td3 ex4\header.h
+	<iostream>
+	<string.h>
+
+1696325312 source:c:\users\user\desktop\esprit 2a\c++\td3\td3 ex4\main.cpp
+	"header.h"
+

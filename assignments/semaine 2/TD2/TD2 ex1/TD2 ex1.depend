@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1695720940 source:c:\users\user\desktop\esprit 2a\c++\td2\td2 ex1\fonction.cpp
+	"header.h"
+
+1695721007 c:\users\user\desktop\esprit 2a\c++\td2\td2 ex1\header.h
+	<iostream>
+	<string>
+

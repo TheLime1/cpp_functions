@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1695723340 source:c:\users\user\desktop\esprit 2a\c++\td2\td2 ex2\banque.cpp
+	"Banque.h"
+
+1695725221 c:\users\user\desktop\esprit 2a\c++\td2\td2 ex2\banque.h
+	<iostream>
+	<string>
+
+1695725496 source:c:\users\user\desktop\esprit 2a\c++\td2\td2 ex2\fonction.cpp
+	"header.h"
+
+1695725256 c:\users\user\desktop\esprit 2a\c++\td2\td2 ex2\header.h
+	<iostream>
+	<string>
+
+1695725397 source:c:\users\user\desktop\esprit 2a\c++\td2\td2 ex2\main.cpp
+	"header.h"
+

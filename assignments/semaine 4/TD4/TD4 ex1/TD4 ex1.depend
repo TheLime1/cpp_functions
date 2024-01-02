@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1696935813 source:c:\users\user\desktop\esprit 2a\c++\td4\td4 ex1\ecole.cpp
+	"ecole.h"
+	<vector>
+
+1696935764 c:\users\user\desktop\esprit 2a\c++\td4\td4 ex1\ecole.h
+	<iostream>
+	<string.h>
+	"header.h"
+	<vector>
+
+1696928858 c:\users\user\desktop\esprit 2a\c++\td4\td4 ex1\header.h
+	<iostream>
+	<string.h>
+
+1696935764 source:c:\users\user\desktop\esprit 2a\c++\td4\td4 ex1\fonction.cpp
+	"header.h"
+

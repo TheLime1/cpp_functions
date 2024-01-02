@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1695118455 source:c:\users\user\desktop\exe3\fonction.cpp
+	<iostream>
+	"header.h"
+	<string.h>
+
+1695117576 c:\users\user\desktop\exe3\header.h
+	<iostream>
+	<string.h>
+
+1695118162 source:c:\users\user\desktop\exe3\main.cpp
+	<iostream>
+	"header.h"
+	<string.h>
+

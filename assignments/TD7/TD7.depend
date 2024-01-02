@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1701168613 source:c:\users\user\desktop\esprit 2a\c++\td7\main.cpp
+	"produit.h"
+	<iostream>
+	<string>
+
+1701168322 c:\users\user\desktop\esprit 2a\c++\td7\produit.h
+	<iostream>
+	<string>
+
