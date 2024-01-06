@@ -1,0 +1,200 @@
+# depslib dependency file v1.0
+1398422175 source:c:\users\becha\desktop\2p1\c++\td6\exercice1\abonne.cpp
+	"abonne.h"
+
+1398422140 
+
+1398707963 c:\users\becha\desktop\2p1\c++\td6\exercice1\abonne.h
+	<iostream>
+
+1398709800 source:c:\users\becha\desktop\2p1\c++\td6\exercice1\bibliotheque.cpp
+	"bibliotheque.h"
+
+1398710307 que.h"
+
+1398708955 c:\users\becha\desktop\2p1\c++\td6\exercice1\bibliotheque.h
+	"ouvrage.h"
+	"video.h"
+	"livre.h"
+	"abonne.h"
+	<string>
+	<iostream>
+	<vector>
+	<typeinfo>
+
+1398422140 c:\users\becha\desktop\2p1\c++\td6\exercice1\ouvrage.h
+	<iostream>
+
+1398422140 c:\users\becha\desktop\2p1\c++\td6\exercice1\video.h
+	"ouvrage.h"
+
+1398422140 "
+
+1398422140 c:\users\becha\desktop\2p1\c++\td6\exercice1\livre.h
+	"ouvrage.h"
+
+1398709847 source:c:\users\becha\desktop\2p1\c++\td6\exercice1\livre.cpp
+	"livre.h"
+
+1398710307 source:c:\users\becha\desktop\2p1\c++\td6\exercice1\main.cpp
+	"bibliotheque.h"
+
+1398422140 source:c:\users\becha\desktop\2p1\c++\td6\exercice1\ouvrage.cpp
+	"ouvrage.h"
+
+1398422140 source:c:\users\becha\desktop\2p1\c++\td6\exercice1\video.cpp
+	"video.h"
+
+1398422175 source:/home/alaya/Téléchargements/exercice1/abonne.cpp
+	"abonne.h"
+
+1398707963 /home/alaya/Téléchargements/exercice1/abonne.h
+	<iostream>
+
+1398766981 source:/home/alaya/Téléchargements/exercice1/bibliotheque.cpp
+	"bibliotheque.h"
+
+1398766984 /home/alaya/Téléchargements/exercice1/bibliotheque.h
+	"ouvrage.h"
+	"video.h"
+	"livre.h"
+	"abonne.h"
+	<string>
+	<iostream>
+	<vector>
+	<typeinfo>
+
+1398766687 /home/alaya/Téléchargements/exercice1/ouvrage.h
+	<iostream>
+
+1398422140 /home/alaya/Téléchargements/exercice1/video.h
+	"ouvrage.h"
+
+1398422140 /home/alaya/Téléchargements/exercice1/livre.h
+	"ouvrage.h"
+
+1398709847 source:/home/alaya/Téléchargements/exercice1/livre.cpp
+	"livre.h"
+
+1398710307 source:/home/alaya/Téléchargements/exercice1/main.cpp
+	"bibliotheque.h"
+
+1398422140 source:/home/alaya/Téléchargements/exercice1/video.cpp
+	"video.h"
+
+1398766653 source:/home/alaya/Téléchargements/exercice1/ouvrage.cpp
+	"ouvrage.h"
+
+1509527028 source:/home/zied/Dropbox/Lien vers workspace/TP6_Ex1_Bibliotheque/Solution 2/abonne.cpp
+	"abonne.h"
+
+1509527028 /home/zied/Dropbox/Lien vers workspace/TP6_Ex1_Bibliotheque/Solution 2/abonne.h
+	<iostream>
+
+1509527716 source:/home/zied/Dropbox/Lien vers workspace/TP6_Ex1_Bibliotheque/Solution 2/livre.cpp
+	"livre.h"
+
+1509527420 /home/zied/Dropbox/Lien vers workspace/TP6_Ex1_Bibliotheque/Solution 2/livre.h
+	"ouvrage.h"
+
+1509527028 /home/zied/Dropbox/Lien vers workspace/TP6_Ex1_Bibliotheque/Solution 2/ouvrage.h
+	<iostream>
+
+1509527522 source:/home/zied/Dropbox/Lien vers workspace/TP6_Ex1_Bibliotheque/Solution 2/main.cpp
+	"bibliotheque.h"
+
+1509528456 /home/zied/Dropbox/Lien vers workspace/TP6_Ex1_Bibliotheque/Solution 2/bibliotheque.h
+	"ouvrage.h"
+	"video.h"
+	"livre.h"
+	"abonne.h"
+	<string>
+	<iostream>
+	<vector>
+	<typeinfo>
+
+1509527028 /home/zied/Dropbox/Lien vers workspace/TP6_Ex1_Bibliotheque/Solution 2/video.h
+	"ouvrage.h"
+
+1509527684 source:/home/zied/Dropbox/Lien vers workspace/TP6_Ex1_Bibliotheque/Solution 2/ouvrage.cpp
+	"ouvrage.h"
+
+1509527684 source:/home/zied/Dropbox/Lien vers workspace/TP6_Ex1_Bibliotheque/Solution 2/video.cpp
+	"video.h"
+
+1509527480 source:/home/zied/Dropbox/Lien vers workspace/TP6_Ex1_Bibliotheque/Solution 2/bibliotheque.cpp
+	"bibliotheque.h"
+
+1509527028 source:/home/zied/Dropbox/Lien vers workspace/TP6_Ex1_Bibliotheque/Solution 2-iterator/abonne.cpp
+	"abonne.h"
+
+1509527028 /home/zied/Dropbox/Lien vers workspace/TP6_Ex1_Bibliotheque/Solution 2-iterator/abonne.h
+	<iostream>
+
+1509527716 source:/home/zied/Dropbox/Lien vers workspace/TP6_Ex1_Bibliotheque/Solution 2-iterator/livre.cpp
+	"livre.h"
+
+1509527420 /home/zied/Dropbox/Lien vers workspace/TP6_Ex1_Bibliotheque/Solution 2-iterator/livre.h
+	"ouvrage.h"
+
+1509527028 /home/zied/Dropbox/Lien vers workspace/TP6_Ex1_Bibliotheque/Solution 2-iterator/ouvrage.h
+	<iostream>
+
+1509527522 source:/home/zied/Dropbox/Lien vers workspace/TP6_Ex1_Bibliotheque/Solution 2-iterator/main.cpp
+	"bibliotheque.h"
+
+1509528456 /home/zied/Dropbox/Lien vers workspace/TP6_Ex1_Bibliotheque/Solution 2-iterator/bibliotheque.h
+	"ouvrage.h"
+	"video.h"
+	"livre.h"
+	"abonne.h"
+	<string>
+	<iostream>
+	<vector>
+	<typeinfo>
+
+1509527028 /home/zied/Dropbox/Lien vers workspace/TP6_Ex1_Bibliotheque/Solution 2-iterator/video.h
+	"ouvrage.h"
+
+1509527684 source:/home/zied/Dropbox/Lien vers workspace/TP6_Ex1_Bibliotheque/Solution 2-iterator/ouvrage.cpp
+	"ouvrage.h"
+
+1509527684 source:/home/zied/Dropbox/Lien vers workspace/TP6_Ex1_Bibliotheque/Solution 2-iterator/video.cpp
+	"video.h"
+
+1509527028 source:/home/zied/Dropbox/Lien vers workspace/TP6_Ex1_Bibliotheque/Solution 2 with more/abonne.cpp
+	"abonne.h"
+
+1509527028 /home/zied/Dropbox/Lien vers workspace/TP6_Ex1_Bibliotheque/Solution 2 with more/abonne.h
+	<iostream>
+
+1509527716 source:/home/zied/Dropbox/Lien vers workspace/TP6_Ex1_Bibliotheque/Solution 2 with more/livre.cpp
+	"livre.h"
+
+1509527420 /home/zied/Dropbox/Lien vers workspace/TP6_Ex1_Bibliotheque/Solution 2 with more/livre.h
+	"ouvrage.h"
+
+1509527028 /home/zied/Dropbox/Lien vers workspace/TP6_Ex1_Bibliotheque/Solution 2 with more/ouvrage.h
+	<iostream>
+
+1509527522 source:/home/zied/Dropbox/Lien vers workspace/TP6_Ex1_Bibliotheque/Solution 2 with more/main.cpp
+	"bibliotheque.h"
+
+1510644454 /home/zied/Dropbox/Lien vers workspace/TP6_Ex1_Bibliotheque/Solution 2 with more/bibliotheque.h
+	"ouvrage.h"
+	"video.h"
+	"livre.h"
+	"abonne.h"
+	<string>
+	<iostream>
+	<vector>
+
+1509527028 /home/zied/Dropbox/Lien vers workspace/TP6_Ex1_Bibliotheque/Solution 2 with more/video.h
+	"ouvrage.h"
+
+1509527684 source:/home/zied/Dropbox/Lien vers workspace/TP6_Ex1_Bibliotheque/Solution 2 with more/ouvrage.cpp
+	"ouvrage.h"
+
+1509527684 source:/home/zied/Dropbox/Lien vers workspace/TP6_Ex1_Bibliotheque/Solution 2 with more/video.cpp
+	"video.h"
+

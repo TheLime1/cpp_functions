@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1583232171 source:c:\users\soumaya\desktop\personne\etudiant.cpp
+	"etudiant.h"
+
+1583232173 source:c:\users\soumaya\desktop\personne\personne.cpp
+	"personne.h"
+
+1583415749 source:c:\users\soumaya\desktop\personne\main.cpp
+	<iostream>
+	"personne.h"
+	"etudiant.h"
+	<vector>
+
+1583415806 c:\users\soumaya\desktop\personne\personne.h
+	<string>
+	<iostream>
+
+1583232175 c:\users\soumaya\desktop\personne\etudiant.h
+	<string>
+	"personne.h"
+
+1583143178 source:c:\users\soumaya\desktop\polymorphisme\personne\etudiant.cpp
+	"etudiant.h"
+
+1583157158 source:c:\users\soumaya\desktop\polymorphisme\personne\personne.cpp
+	"personne.h"
+
+1583157146 source:c:\users\soumaya\desktop\polymorphisme\personne\main.cpp
+	<iostream>
+	"personne.h"
+	"etudiant.h"
+	<vector>
+
+1583157146 c:\users\soumaya\desktop\polymorphisme\personne\personne.h
+	<string>
+	<iostream>
+
+1583157146 c:\users\soumaya\desktop\polymorphisme\personne\etudiant.h
+	<string>
+	"personne.h"
+
