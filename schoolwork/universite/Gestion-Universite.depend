@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1641403934 source:c:\users\plm_cad01\desktop\esprit2021\examens1-v2-janvier2022\gestion-universite\main.cpp
+	<iostream>
+	"Enseignant.h"
+	"Expert.h"
+	"Universite.h"
+
+1641340626 c:\users\plm_cad01\desktop\esprit2021\examens1-v2-janvier2022\gestion-universite\include\enseignant.h
+	<string>
+
+1641403619 source:c:\users\plm_cad01\desktop\esprit2021\examens1-v2-janvier2022\gestion-universite\src\enseignant.cpp
+	"Enseignant.h"
+	<iostream>
+
+1641317795 source:c:\users\plm_cad01\desktop\esprit2021\examens1-v2-janvier2022\gestion-universite\src\expert.cpp
+	"Expert.h"
+	<iostream>
+
+1641340184 c:\users\plm_cad01\desktop\esprit2021\examens1-v2-janvier2022\gestion-universite\include\expert.h
+	<Enseignant.h>
+	<string>
+
+1641340184 source:c:\users\plm_cad01\desktop\esprit2021\examens1-v2-janvier2022\gestion-universite\src\classe.cpp
+	"Classe.h"
+
+1641340305 c:\users\plm_cad01\desktop\esprit2021\examens1-v2-janvier2022\gestion-universite\include\classe.h
+	<string>
+	<vector>
+
+1641404526 source:c:\users\plm_cad01\desktop\esprit2021\examens1-v2-janvier2022\gestion-universite\src\universite.cpp
+	"Universite.h"
+
+1641341490 c:\users\plm_cad01\desktop\esprit2021\examens1-v2-janvier2022\gestion-universite\include\universite.h
+	"Enseignant.h"
+	"Classe.h"
+	"Expert.h"
+	<string>
+	<iostream>
+	<fstream>
+
